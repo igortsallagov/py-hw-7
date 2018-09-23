@@ -55,7 +55,7 @@ def top_y_words(sorted_dict, y):
 
 def core():
     input_1 = input('Введите имя папки: ')
-    input_2 = input('Введите имя файла (XML или JSON: ')
+    input_2 = input('Введите имя файла (XML или JSON): ')
     input_3 = int(input('Минимальное число символов в словах для поиска: '))
     input_4 = int(input('Введите длину списка часто повторяющихся слов: '))
     file = str(input_1 + '/' + input_2)
